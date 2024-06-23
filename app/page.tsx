@@ -16,26 +16,13 @@ export default function Home() {
             alt=""
           />
           <div className="absolute w-full h-screen z-2 flex flex-col">
-            <div className="relative top-[50%] flex w-full justify-center">
-              <Image src="/logo.png" alt="" width={0} height={0} style={{ minWidth: '400px', width: '50%' }} />
-            </div>
-            <div className=" relative top-[50%] w-full">
-              <div className="flex w-full justify-center text-center">
-                <div className="py-[10%] font-semibold text-2xl">ABOUT</div>
-                <div className="py-[10%] font-semibold text-2xl">MEDIA</div>
-                <div className="py-[10%] font-semibold text-2xl">CONTACT</div>
-              </div>
+            <div className="relative top-[50%] flex w-full justify-center text-6xl text-djpri border-djpri border-[2px]">
+              BOOK NOW
             </div>
 
           </div>
 
         </div>
-        <div className="flex w-full h-[100vh]">
-
-        </div>
-      </div>
-      <div className="absolute top-0 flex w-full h-screen z-1 bg-sky-500/50">
-        HENLO
       </div>
     </main>
   );
