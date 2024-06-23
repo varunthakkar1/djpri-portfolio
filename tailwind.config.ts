@@ -15,7 +15,7 @@ const config: Config = {
       },
     },
     colors: {
-      'djpri': '#c7b1ff'
+      'djpri': '#8D6EAD'
     }
   },
   plugins: [],
