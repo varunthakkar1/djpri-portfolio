@@ -16,9 +16,9 @@ export default function Home() {
             alt=""
           />
           <div className="absolute w-full h-screen z-2 flex flex-col">
-            <div className="relative top-[50%] flex w-full justify-center text-6xl text-djpri border-djpri border-[2px]">
+            {/* <div className="relative top-[50%] flex w-full justify-center text-6xl text-djpri border-djpri border-[2px]">
               BOOK NOW
-            </div>
+            </div> */}
 
           </div>
 
