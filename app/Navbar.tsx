@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="absolute h-[100px] w-[100%] bg-djpri z-50 flex" >
             <div className="absolute w-full justify-center flex">
-                <Image onClick={() => window.history.pushState({}, "", '/')} src="/logo.png" alt="" width={0} height={0} style={{ width: '200px', objectFit: 'cover' }} />
+                <Image onClick={() => location.href = "/"} src="/logo.png" alt="" width={0} height={0} style={{ width: '200px', objectFit: 'cover' }} />
             </div>
             <div className="absolute w-full justify-between flex">
                 <div className="flex h-[100px] pl-[5%]">
@@ -18,7 +18,10 @@ const Navbar = () => {
                         <BsInstagram size={'30px'} />
                     </a>
                 </div>
-                <div className="flex h-[100px] pr-[5%]">
+                <div className="flex h-[100px] pr-[5%] xl:pr-[12%]">
+                    <a href="/" className="xl:flex hidden flex-col justify-center text-nowrap text-xl px-[6%]">
+                        HOME
+                    </a>
                     <a href="/about" className="xl:flex hidden flex-col justify-center text-nowrap text-xl px-[6%]">
                         ABOUT
                     </a>
@@ -28,7 +31,7 @@ const Navbar = () => {
                     <a href="/contact" className="xl:flex hidden flex-col justify-center text-nowrap text-xl px-[6%]">
                         CONTACT
                     </a>
-                    <div className="flex xl:hidden flex-col justify-center" onClick={() => setNavbarOpen(!navbarOpen)}>
+                    <div className="flex xl:hidden flex-col justify-center cursor-pointer" onClick={() => setNavbarOpen(!navbarOpen)}>
                         <RxHamburgerMenu size={'40px'} />
                     </div>
                 </div>
@@ -47,6 +50,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="w-full flex flex-col mt-[20%]" style={{ display: navbarOpen ? 'flex' : 'none' }}>
+                    <div className="w-full text-4xl flex justify-center py-[4%] font-bold">
+                        <a href="/">HOME</a>
+                    </div>
                     <div className="w-full text-4xl flex justify-center py-[4%] font-bold">
                         <a href="/about">ABOUT</a>
                     </div>

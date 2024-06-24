@@ -35,7 +35,7 @@ const Contact = () => {
         })
     }
 
-    const inputWrapperClass = "w-[45%] min-w-[300px] flex flex-col my-[25px]"
+    const inputWrapperClass = "w-full xl:w-[45%] min-w-[300px] flex flex-col my-[25px]"
 
     return (
         <div className="w-full min-h-screen bg-[#FFF] flex justify-center">
