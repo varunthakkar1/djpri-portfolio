@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="fixed h-[100px] w-[100%] bg-djpri z-50 flex" >
             <div className="absolute w-full justify-center flex">
-                <Image onClick={() => location.href = "/"} src="/logo.png" alt="" width={0} height={0} style={{ width: '200px', objectFit: 'cover' }} />
+                <Image onClick={() => location.href = "/"} src="/logo.png" alt="" sizes="200px" width={0} height={0} style={{ width: '200px', objectFit: 'cover' }} />
             </div>
             <div className="absolute w-full justify-between flex">
                 <div className="flex h-[100px] pl-[5%]">
