@@ -14,7 +14,7 @@ const About = () => {
 
                     Her passion lies in creating electrifying sets that blend genres like Bollywood/desi, reggaeton, Afrobeats, R&B, hip-hop, and house music.  PRII believes music is a universal language, and her mixes are all about uniting people and uplifting spirits on the dance floor.
 
-                    Whether it's a corporate event, a trendy restaurant, a pulsing club, or an intimate wedding, PRII brings her versatility and infectious enthusiasm to every gig, guaranteeing an unforgettable musical experience.
+                    Whether it&apos;s a corporate event, a trendy restaurant, a pulsing club, or an intimate wedding, PRII brings her versatility and infectious enthusiasm to every gig, guaranteeing an unforgettable musical experience.
                 </div>
 
             </div>
