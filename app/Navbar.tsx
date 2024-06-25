@@ -8,7 +8,7 @@ import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
     return (
-        <div className="absolute h-[100px] w-[100%] bg-djpri z-50 flex" >
+        <div className="fixed h-[100px] w-[100%] bg-djpri z-50 flex" >
             <div className="absolute w-full justify-center flex">
                 <Image onClick={() => location.href = "/"} src="/logo.png" alt="" width={0} height={0} style={{ width: '200px', objectFit: 'cover' }} />
             </div>
@@ -50,10 +50,10 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="w-full flex flex-col mt-[20%]" style={{ display: navbarOpen ? 'flex' : 'none' }}>
-                    <div className="w-full text-4xl flex justify-center py-[4%] font-bold">
+                    <div className="w-full text-4xl flex justify-center py-[4%]">
                         <a href="/">HOME</a>
                     </div>
-                    <div className="w-full text-4xl flex justify-center py-[4%] font-bold">
+                    <div className="w-full text-4xl flex justify-center py-[4%]">
                         <a href="/about">ABOUT</a>
                     </div>
                     <div className="w-full text-4xl flex justify-center py-[4%]">

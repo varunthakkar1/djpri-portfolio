@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lato.className} style={{ margin: '0px', padding: '0px' }}>{children}</body>
+      <body className={inter.className} style={{ margin: '0px', padding: '0px' }}>{children}</body>
     </html>
   );
 }
