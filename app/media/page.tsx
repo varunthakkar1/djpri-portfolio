@@ -15,8 +15,8 @@ const Media = () => {
         <div className="w-full h-screen bg-[#FFF] flex justify-center overflow-scroll">
             <Navbar />
             <div className="w-[80%] h-full flex-wrap flex mt-[100px] justify-center pt-[50px]">
-                {images.map(imageSrc => {
-                    return <Image src={imageSrc} width={300} height={300}
+                {images.map((imageSrc, key) => {
+                    return <Image src={imageSrc} key={key} width={300} height={300}
                         sizes="1000px" style={{ objectFit: 'cover', padding: '20px' }} alt={""} />
                 })}
             </div>
