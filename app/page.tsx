@@ -80,7 +80,7 @@ export default function Home() {
             <Image className="w-full h-full" src={"/event2.jpeg"} width={0} height={0} alt="" sizes="1280px" style={{ objectFit: 'cover' }} />
           </Carousel>
         </div>
-        <div className="font-bold text-2xl xl:text-3xl w-full text-[#FFF] p-[5%] bg-djpri flex justify-center text-center">Past Clients</div>
+        {/* <div className="font-bold text-2xl xl:text-3xl w-full text-[#FFF] p-[5%] bg-djpri flex justify-center text-center">Past Clients</div> */}
         <Marquee speed={100} style={{ height: '200px' }}>
           {clientImages.map((imageSrc, index) => {
             return <Image key={index} src={imageSrc} width={0} height={0} sizes="720px" alt="" style={{ objectFit: 'cover', height: '200px', width: 'auto' }} />
