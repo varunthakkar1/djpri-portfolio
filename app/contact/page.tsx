@@ -40,10 +40,7 @@ const Contact = () => {
     return (
         <div className="w-full min-h-screen bg-[#FFF] flex justify-center">
             <Navbar />
-            <div className="w-[60%] min-w-[350px] flex-col flex mt-[100px] pt-[5%]">
-                <div className="text-djpri w-full text-2xl flex justify-center h-min">
-                    Contact me directly at djprii.bookings@gmail.com or fill out this form!
-                </div>
+            <div className="w-[60%] min-w-[325px] flex-col flex mt-[100px] pt-[5%]">
                 <div className="flex flex-wrap w-full justify-between">
                     <div className={inputWrapperClass}>
                         <label htmlFor="name" className="flex mb-2 text-2xl text-djpri">Name/Organization</label>
